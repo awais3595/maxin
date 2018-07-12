@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>maxin-index</title>
+<link href="assets/css/reset.css"  type="text/css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<script src="assets/js/jquery-1.11.3.min.js" type="text/javascript"></script> 
+<script src="assets/js/jssor.slider-22.1.8.mini.js" type="text/javascript"></script> 
+
+<!----------------------- slider-start---------------------------> 
+<script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script> 
+<!----------------------- slider-end--------------------------->
+
+<div class="container">
+  <header class="clearfix">
+    <div class="header-left">
+      <ul>
+        <li><a href="#">form</a></li>
+        <li>|</li>
+        <li><a href="#">terms</a></li>
+        <li>|</li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </div>
+    <div class="header-right">
+      <ul>
+        <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="dribble"><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+        <li class="vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+        <li class="google"><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+        <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </header>
+</div>
+<div class="db-line">
+<div class="container">
+<div class="logo">
+  <h1>maxin</h1>
+</div>
+<div class="search-box"> <i class="fa fa-search" aria-hidden="true"></i> </div>
+<nav>
+<ul>
+<li class="active"><a href="#">home</a></li>
+<li><a href="pages">pages</a></li>
+<li><a href="features">features</a></li>
+<li><a href="blog">blog</a></li>
+<li><a href="work">work</a></li>
+<ul>
+</nav>
+</div>
+</div>
+<!------------------slider start--------------------------------------->
+
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;"> 
+  <!-- Loading Screen -->
+  <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height:
+             100%;"></div>
+    <div style="position:absolute;display:block;background:url('assets/img/loading.gif') no-repeat center center;top:0px;left:0px;
+            width:100%;height:100%;"></div>
+  </div>
+  <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+    <div> <img data-u="image" src="assets/img/red.jpg"/>
+      <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;
+                line-height:60px;">TOUCH SWIPE SLIDER</div>
+      <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;
+                line-height:38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
+    </div>
+    <div> <img data-u="image" src="assets/img/purple.jpg" /> </div>
+    <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+    <div> <img data-u="image" src="assets/img/blue.jpg" /> </div>
+  </div>
+  <!-- Bullet Navigator -->
+  <div data-u="navigator" class="jssorb05" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1"> 
+    <!-- bullet navigator item prototype -->
+    <div data-u="prototype" style="width:16px;height:16px;"></div>
+  </div>
+  <!-- Arrow Navigator --> 
+  <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span> <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span> </div>
+
+<!----------------------------------slider end------------------------------------------->
+<section>
+  <div class="container clearfix">
+    <div class="col-1"> <i class="fa fa-cube" aria-hidden="true"></i>
+      <h1>web Hosting</h1>
+      <p>innovative design always develops in tandem with innovative technology ,and can never be an end in itself .Lorem ipsum dolor.</p>
+    </div>
+    <div class="col-1"> <i class="fa fa-desktop" aria-hidden="true"></i>
+      <h1>Web Design</h1>
+      <p>innovative design always develops in tandem with innovative technology ,and can never be an end in itself .Lorem ipsum dolor.</p>
+    </div>
+    <div class="col-1"> <i class="fa fa-globe" aria-hidden="true"></i>
+      <h1>Server Managment</h1>
+      <p>innovative design always develops in tandem with innovative technology ,and can never be an end in itself .Lorem ipsum dolor.</p>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <hr>
+</div>
+<div class="container clearfix">
+  <aside>
+    <div class="recent-work">
+      <h1>Recnt Works</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Awnean nisl orci.</p>
+      <a href="#">See All ></a> </div>
+    <hr>
+    <div class="categories">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Print</a></li>
+        <li><a href="#">Video</a></li>
+        <li><a href="#">Other</a></li>
+      </ul>
+    </div>
+    <div class="categories">
+      <h2>Archives</h2>
+      <ul>
+        <li><a href="#">May 2012 (2)</a></li>
+        <li><a href="#">April 2012 (3)</a></li>
+        <li><a href="#">March 2012 (5)</a></li>
+        <li><a href="#">February 2012 (1)</a></li>
+      </ul>
+    </div>
+  </aside>
+  <article class="clearfix">
+    <div class="article-left"> <img src="assets/img/maxin 1.jpg" alt="article-2" width="399" height="219">
+      <h3>Save the World</h3>
+      <p> 10 MAY 2013 -<span>DESIGN,PRINT</span></p>
+      <img src="assets/img/maxin 2.jpg" alt="article 2" width="399" height="219">
+      <h3>Spoilt for choice</h3>
+      <p> 10 MAY 2013 -<span>DESIGN,PRINT</span></p>
+    </div>
+    <div class="article-right"> <img src="assets/img/maxin 3.jpg" alt="article 3" width="399" height="219">
+      <h3>Mall Admirer</h3>
+      <p> 10 MAY 2013 -<span>DESIGN,PRINT</span></p>
+      <img src="assets/img/maxin 4.jpg" alt="article 4" width="399" height="219">
+      <h3>Busy girl</h3>
+      <p> 10 MAY 2013 -<span>DESIGN,PRINT</span></p>
+    </div>
+  </article>
+</div>
+<div class="container">
+  <div class="clean clearfix">
+    <div class="clean-left">
+      <h4>Clean,Flat,Modern & Responsive Template</h4>
+      <p>Minimal disign helps viewers navigate though the design.</p>
+    </div>
+    <div class="clean-right">
+      <button>Purchase Now</button>
+    </div>
+  </div>
+  <!--clean--> 
+</div>
+<div class="container">
+  <div class="necessary clearfix">
+    <div class="necessary-left">
+      <div class="necessary-work clearfix">
+        <div class="necessary-info">
+          <h5>Only Use What is necessary</h5>
+          <p>Aliquam enim enim,pharetra in sodales at,interdum sit amet dui.Nullam vulputate euismod urna non pharetra.Phasellus mattis ipsum,ac laoret lorem lacinia et cras et ligula libero.</p>
+          <a href="#">Haretra in sodales atsen interdum ></a> </div>
+        <div class="necessary-img"> <img src="assets/img/clean 1.jpg" width="161" height="141" alt="clean"> </div>
+      </div>
+    </div>
+    <div class="necessary-right">
+      <div class="necessary-work clearfix">
+        <div class="necessary-info">
+          <h5>Only Use What is necessary</h5>
+          <p>Aliquam enim enim,pharetra in sodales at,interdum sit amet dui.Nullam vulputate euismod urna non pharetra.Phasellus mattis ipsum,ac laoret lorem lacinia et cras et ligula libero.</p>
+          <a href="#">Haretra in sodales atsen interdum ></a> </div>
+        <div class="necessary-img"> <img src="assets/img/clean 1.jpg" width="161" height="141" alt="clean"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="blog">
+    <div class="top-head">
+      <h6>
+      LATEST FROM BLOG
+      <h6>
+    </div>
+    <div class="blog-bottom clearfix">
+      <div class="bottom-1"> <img src="assets/img/blog-1.jpg" width="354" height="157" alt="blog-1">
+        <p>Job Seeking Out of Your Industry</p>
+        <span>10 MAY 2013</span> </div>
+      <div class="bottom-1"> <img src="assets/img/blog-2.jpg" width="354" height="157" alt="blog-1">
+        <p>Job Seeking Out of Your Industry</p>
+        <span>10 MAY 2013</span> </div>
+      <div class="bottom-1"> <img src="assets/img/blog-3.jpg" width="354" height="157" alt="blog-1">
+        <p>Job Seeking Out of Your Industry</p>
+        <span>10 MAY 2013</span> </div>
+    </div>
+  </div>
+  <div class="quote">
+    <div class="img-line"> <img src="assets/img/blog line.jpg" width="1100" height="47" alt="blog line"> </div>
+    <h1> QUOTE OF THE WEEK</h1>
+    <p>"care and accuracy in the design process show respect towards the consumer."</p>
+    <h2>
+    -john Smith <span>Manger at Maxin<span>
+    <h2>
+  </div>
+</div>
+<footer>
+  <div class="primary-footer">
+    <div class="container clearfix">
+      <div  class="foot-1">
+        <div class="foot-head">
+          <h1>CONTACT INFORMATION</h1>
+        </div>
+        <div class="foot-info">
+          <p><span>Address:</span>NO.28-63739 street lorem ipsum city, country</p>
+          <p><span>Phone:</span><a href="#"><i class="fa fa-skype" aria-hidden="true"></i> +1(234)567 8901</a></p>
+          <p><span>Fax:</span>+1(234)567 8901</p>
+          <p><span>Email:</span>support@yoursite.com</p>
+        </div>
+        <div class="foot-social">
+          <div class="foot-head">
+            <h1>STAY CONNECTED</h1>
+          </div>
+          <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#" class="globe"><i class="fa fa-globe" aria-hidden="true"></i></a> <a href="#" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a> <a href="#" class="vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a> <a href="#" class="google"><i class="fa fa-google" aria-hidden="true"></i></a> <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </div>
+      </div>
+      <div  class="foot-2">
+        <div class="foot-head">
+          <h1>LATEST TWEET</h1>
+        </div>
+        <div class="webnus">
+            <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+            <h3>@Webnus</h3>
+            <p>Check out this great #<span>themeforest</span> item 'Florida-Premium Multipurpose Responsive Theme,<br>
+            <span>http//y.co/IBJOT9THgH</span></p>
+        </div>
+      </div>
+      <div  class="foot-3">
+        <div class="foot-head">
+          <h1>FLICKR PHOTOSTREAM</h1>
+        </div>
+        <div class="photostream">
+          <ul>
+            <li><a href="#"><img src="assets/img/sea-1.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-2.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-3.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-4.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-5.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-6.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-7.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-8.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-9.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-10.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-11.jpg"></a></li>
+            <li><a href="#"><img src="assets/img/sea-12.jpg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="secondary-footer">
+  <div class="container clearfix">
+  <div class="secondary-left">
+  <p>@ 2012. All Rights Reserved. powered By <span>word press</span><p>
+  </div>
+    <div class="secondary-right">
+    <img src="assets/img/maxin.jpg" alt="maxin">
+    </div>
+
+  </div>
+  </div>
+  
+</footer>
+</body>
+</html>
